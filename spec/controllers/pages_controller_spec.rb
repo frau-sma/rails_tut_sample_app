@@ -46,6 +46,7 @@ describe PagesController do
   end
 
   # tests for Help page
+
   describe "GET 'help'" do
     it 'should be successful' do
       get 'help'
