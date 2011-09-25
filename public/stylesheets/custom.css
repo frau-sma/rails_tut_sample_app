@@ -98,10 +98,21 @@ a:link.signup_button
   text-align: center;
   max-width: 190px;
   color: #fff;
+  text-decoration: none;
   background-color: #000064;
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
+}
+
+a:visited.signup_button
+{
+  color: #fff;
+}
+
+a:hover.signup_button
+{
+  background-color: #09c;
 }
 
 /* Header */
