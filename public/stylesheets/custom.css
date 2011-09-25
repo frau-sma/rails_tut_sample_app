@@ -42,9 +42,9 @@ a:link
   text-decoration: none;
 }
 
+a:visited,
 a:hover,
-a:active,
-a:visited
+a:active
 {
   color: #069;
 }
@@ -90,7 +90,8 @@ nav ul li a:visited
 
 /* Sign-Up Button */
 
-a:link.signup_button
+a.signup_button:link,
+a.signup_button:visited
 {
   margin-left: auto;
   margin-right: auto;
@@ -105,12 +106,7 @@ a:link.signup_button
   padding: 20px;
 }
 
-a:visited.signup_button
-{
-  color: #fff;
-}
-
-a:hover.signup_button
+a.signup_button:hover
 {
   background-color: #09c;
 }
