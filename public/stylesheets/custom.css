@@ -134,6 +134,37 @@ footer nav
   float: none;
 }
 
+/* User Show Page */
+
+table#profile
+{
+  width: 100%;
+  margin-bottom: 0;
+}
+
+td#main
+{
+  width: 70%;
+  padding: 1em;
+}
+
+td#sidebar
+{
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+  border: 2px solid #09c;
+}
+
+#profile img.gravatar
+{
+  border: 1px solid #999;
+  margin-bottom: -15px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
 /* Round Corners */
 
 .round
