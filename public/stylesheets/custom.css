@@ -165,6 +165,62 @@ td#sidebar
   border-radius: 6px;
 }
 
+/* Forms */
+
+div.field,
+div.actions
+{
+  margin-bottom: 10px;
+}
+
+div.field_with_errors
+{
+  display: inline;
+}
+
+.field_with_errors label
+{
+  color: #c00;
+}
+
+.field_with_errors input
+{
+  border: 1px solid #c00;
+}
+
+#error_explanation
+{
+  max-width: 400px;
+  border: 2px solid #c00;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #fcfcfc;
+}
+
+#error_explanation h2
+{
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 12px;
+  font-size: 12px;
+  margin: -7px;
+  color: #c00;
+}
+
+#error_explanation p
+{
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul li
+{
+  font-size: 12px;
+  list-style-type: square;
+}
+
 /* Round Corners */
 
 .round
