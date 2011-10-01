@@ -221,6 +221,20 @@ div.field_with_errors
   list-style-type: square;
 }
 
+/* Member List */
+
+ul.users
+{
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+.users li
+{
+  list-style-type: none;
+  padding: 0.25em 0 0 0;
+}
+
 /* Round Corners */
 
 .round
