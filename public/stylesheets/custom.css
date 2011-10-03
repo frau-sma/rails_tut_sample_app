@@ -147,6 +147,7 @@ td#main
 {
   width: 70%;
   padding: 1em;
+  vertical-align: top;
 }
 
 td#sidebar
@@ -154,7 +155,12 @@ td#sidebar
   width: 30%;
   padding: 1em;
   vertical-align: top;
+}
+
+td#sidebar p
+{
   border: 2px solid #09c;
+  padding: 0.5em;
 }
 
 #profile img.gravatar
@@ -224,6 +230,44 @@ div.field_with_errors
 
 /* Member List */
 
+ul.users
+{
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+.users li
+{
+  list-style-type: none;
+  padding: 0.25em 0 0 0;
+}
+
+/* Microposts */
+
+article
+{
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  border-top: 1px solid silver;
+}
+
+article p
+{
+  margin: 0;
+}
+
+article p.content
+{
+}
+
+article p.timestamp
+{
+  font-size: smaller;
+  color: silver;
+}
+
+/* Pagination */
+
 div.pagination
 {
   margin: 1em auto;
@@ -235,18 +279,6 @@ div.pagination
 {
   font-style: normal;
   font-weight: bold;
-}
-
-ul.users
-{
-  margin: 1em 0 0 0;
-  padding: 0;
-}
-
-.users li
-{
-  list-style-type: none;
-  padding: 0.25em 0 0 0;
 }
 
 /* Round Corners */
