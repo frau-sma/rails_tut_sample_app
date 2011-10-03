@@ -161,5 +161,14 @@ describe User do
     it 'should have the right microposts in the right order' do
       @user.microposts.should == [@mp2, @mp1]
     end
+
+    it 'should delete associated microposts on user deletion' do
+      @user.destroy
+      [@mp1, @mp2].each do |post|
+        lambda do
+          Micropost.find(post.id)
+        end.should raise_error(ActiveRecord::RecordNotFound)
+      end
+    end
   end
 end
