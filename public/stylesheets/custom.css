@@ -266,6 +266,11 @@ article p.timestamp
   color: silver;
 }
 
+article span.delete-link
+{
+  float: right;
+}
+
 /* Pagination */
 
 div.pagination
