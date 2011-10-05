@@ -12,7 +12,7 @@
   <p class="round">
     <b>Name:</b> <%= @user.name %><br/>
     <b>URL:</b>  <%= link_to user_path(@user), @user %><br/>
-    <b>Microposts:</b> <%= @user.microposts.count %>
+    <b>Microposts:</b> <%= link_to @user.microposts.count, user_microposts_path(@user) %>
   </p>
   </td>
 </tr>

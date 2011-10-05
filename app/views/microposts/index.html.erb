@@ -1,0 +1,7 @@
+<h1><%= gravatar_for @user %>
+  <%= link_to @user.name, @user %>'s Microposts
+</h1>
+
+<%= render @microposts %>
+
+<%= will_paginate %>
